@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(65deg, #20205b, lightblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendar{
+    width: 300px;
+    height: 250px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.left, .right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-direction: column;
+}
+.right{
+    width: 42%;
+    background-color: lightcoral;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.left{
+    width: 58%;
+}
+
+#date{
+    font-size: 100px;
+    line-height: 90px;
+    
+}
+
+
